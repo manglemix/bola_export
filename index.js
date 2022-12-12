@@ -54,7 +54,7 @@ const Preloader = /** @constructor */ function () { // eslint-disable-line no-un
 			loaded: 0,
 			done: false,
 		};
-		return fetch('https://manglemix.github.io/bola_export/' + file, {mode:'cors'}).then(function (response) {
+		return fetch('https://manglemix.github.io/bola_export/' + file).then(function (response) {
 			if (!response.ok) {
 				return Promise.reject(new Error(`Failed loading file '${file}'`));
 			}
