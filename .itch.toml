@@ -1,0 +1,9 @@
+[[actions]]
+name = "play"
+path = "index.html"
+scope = "profile:me"
+sandbox = true
+
+[[actions]]
+name = "Website"
+path = "https://manglemix.com"
