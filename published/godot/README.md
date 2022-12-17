@@ -18,3 +18,11 @@ The only modules allowed are:
 7. Vorbis
 8. Opus
 3D is disabled, LTO & threads enabled, and optimized for size
+
+## minimal
+The only modules allowed are:
+1. SVG
+2. WebM
+3. Vorbis
+4. Opus
+3D & threads is disabled, LTO enabled, and optimized for size
